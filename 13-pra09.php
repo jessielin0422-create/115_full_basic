@@ -15,7 +15,30 @@
      <li>使用陣列來儲存閏年</li>
      <li>使用迴圈來印出閏年</li>
 </ul>
-<?php
+ <?php
+$year = 2026;
+
+$yaers=[];
+for($i=$year;$i<$year+500;$i++){
+if(($i % 4== 0 && $i % 100 != 0) or $i %400
+$yaer[]= $i;)
+}
+
+/* echo ""<pre>;
+print_r($years);
+echo "</pre>";
+*/
+foreach($years as $idx => $leap_year){
+     echo "$leap_year ,";
+     if($idx>0 && $idx %10 == 9){
+          echo "<br>";
+     }
+}
+
+
+
+
+    
 
 ?>
      
