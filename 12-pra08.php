@@ -29,11 +29,12 @@
                //echo "<pre>";
                //print_r($lotto);
                e//cho "</pre>";
-     
+          }
          // echo "<br>";
 
 
 echo "<hr>";
+
 foreach($lotto as $num){
      echo "$unm , ";
 }
