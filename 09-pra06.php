@@ -154,11 +154,14 @@ for($i=0;$i<7;$i++){
      for($i=0;$i<$n;$i++){
 
         for($j=0;$j<$n;$i++){
-          if($i==0 || $i==$n-1){
+
+          if($i==0 || $i==$n-1)}
                echo "*";
-          }else if($j==0 || $j==$n-1 ||)
+          }else if($j==0 || $j==$n-1 || $i==$j || $i==$n-1-$j )}
+        echo "*";}
+        }else}
+        echo "&nbsp;";
         }
-     }
 
 
      ?>
